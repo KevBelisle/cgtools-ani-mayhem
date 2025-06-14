@@ -1,0 +1,19 @@
+@import url("./game-specific/styles.css");
+
+html {
+  scrollbar-gutter: stable;
+  background: rgb(23 24 29);
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cfilter%20id%3D%22filter%22%3E%3CfeTurbulence%20baseFrequency%3D%220.15%22%2F%3E%3CfeColorMatrix%20values%3D%220%200%200%208%20-4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%200%200%208%20-4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%200%200%208%20-4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%200%200%200%201%22%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url(%23filter)%22%2F%3E%3C%2Fsvg%3E");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  overflow: auto;
+}

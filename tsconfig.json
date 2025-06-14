@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["DOM", "DOM.Iterable", "DOM.AsyncIterable", "WebWorker", "ES2022"],
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    /* Bundler mode */
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Types for vite-pwa */
+    "types": ["vite-plugin-pwa/react"]
+  }
+}

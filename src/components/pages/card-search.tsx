@@ -36,7 +36,7 @@ const MemoizedCardResults = memo(CardResults, (prevProps, nextProps) => {
   return (
     prevProps.cards.length == nextProps.cards.length &&
     prevProps.cards.every(
-      (card, index) => card.Slug === nextProps.cards[index]?.Slug,
+      (card, index) => card.ImageFile === nextProps.cards[index]?.ImageFile,
     )
   );
 });

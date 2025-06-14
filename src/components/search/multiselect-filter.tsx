@@ -1,4 +1,4 @@
-import { CardSideTable } from "@/game-specific/database-schema.tsx";
+import { CardTable } from "@/game-specific/database-schema.tsx";
 import {
   CheckboxCard,
   CheckboxGroup,
@@ -20,7 +20,7 @@ function Dropdown({
   filter,
   onChange,
 }: {
-  id: keyof CardSideTable;
+  id: keyof CardTable;
   filter: MultiselectFilterType;
   onChange: React.Dispatch<React.SetStateAction<SearchFilterType>>;
 }) {
@@ -91,7 +91,7 @@ function CheckboxList({
   filter,
   onChange,
 }: {
-  id: keyof CardSideTable;
+  id: keyof CardTable;
   filter: MultiselectFilterType;
   onChange: React.Dispatch<React.SetStateAction<SearchFilterType>>;
 }) {
@@ -141,7 +141,7 @@ export function MultiselectFilter({
   filter,
   onChange,
 }: {
-  id: keyof CardSideTable;
+  id: keyof CardTable;
   filter: MultiselectFilterType;
   onChange: React.Dispatch<React.SetStateAction<SearchFilterType>>;
 }) {

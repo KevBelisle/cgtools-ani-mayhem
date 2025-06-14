@@ -34,16 +34,7 @@ export default function NavBar() {
               variant={"surface"}
               preload={"intent"}
             >
-              Cards
-            </CustomButtonLink>
-            <CustomButtonLink
-              to="/products"
-              search={{ query: "" }}
-              size="xs"
-              variant={"surface"}
-              preload={"intent"}
-            >
-              Products
+              Card Search
             </CustomButtonLink>
             <ReloadPrompt />
           </HStack>

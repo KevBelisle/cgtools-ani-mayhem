@@ -1,7 +1,7 @@
-import { CardSideTable } from "@/game-specific/database-schema";
+import { CardTable } from "@/game-specific/database-schema";
 
 export type InputFilterType = {
-  id: keyof CardSideTable;
+  id: keyof CardTable;
   type: "input";
   label: string;
   placeholder: string;
@@ -9,7 +9,7 @@ export type InputFilterType = {
 };
 
 export type MultiselectFilterType = {
-  id: keyof CardSideTable;
+  id: keyof CardTable;
   type: "multiselect";
   label: string;
   placeholder: string;
@@ -22,7 +22,7 @@ export type RangeFilterValueType = {
   special: number[];
 };
 export type RangeFilterType = {
-  id: keyof CardSideTable;
+  id: keyof CardTable;
   type: "range";
   label: string;
   min: number;

@@ -14,7 +14,7 @@ export function SearchFilters({
   return (
     <VStack align="stretch" gap={4} separator={<Separator />}>
       {searchFilters
-        .filter((filter) => filter.id != "Search_Title")
+        .filter((filter) => filter.id != "Name")
         .map((filter) => {
           switch (filter.type) {
             case "input":

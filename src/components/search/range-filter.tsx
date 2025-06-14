@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { useCallback, useState } from "react";
 
-import { CardSideTable } from "@/game-specific/database-schema";
+import { CardTable } from "@/game-specific/database-schema";
 import { LuChevronDown, LuChevronUp } from "react-icons/lu";
 import { Checkbox } from "../ui/checkbox";
 import {
@@ -25,7 +25,7 @@ export function RangeFilter({
   filter,
   onChange,
 }: {
-  id: keyof CardSideTable;
+  id: keyof CardTable;
   filter: RangeFilterType;
   onChange: React.Dispatch<React.SetStateAction<SearchFilterType>>;
 }) {

@@ -12,7 +12,7 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as IndexImport } from './routes/index'
-import { Route as CardsCardImport } from './ro./routes/cards/$card
+import { Route as CardsCardImport } from './routes/cards/$card'
 import { Route as CardsSearchIndexImport } from './routes/cards/search/index'
 import { Route as CardsSearchAdvancedImport } from './routes/cards/search/advanced'
 

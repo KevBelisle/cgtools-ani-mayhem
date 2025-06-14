@@ -86,7 +86,7 @@ function RouteComponent() {
         />
         <Image
           src={backImageUrl}
-          alt={card.Back?.Title ?? "Back of card"}
+          alt={"Back of card"}
           bg={"night.800"}
           width={width}
           maxWidth={maxWidth}

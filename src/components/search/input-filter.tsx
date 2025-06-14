@@ -2,7 +2,7 @@ import { Em, Field, Flex, Input, Text } from "@chakra-ui/react";
 import { useCallback, useState } from "react";
 import { LuChevronDown, LuChevronUp } from "react-icons/lu";
 
-import { CardSideTable } from "@/game-specific/database-schema";
+import { CardTable } from "@/game-specific/database-schema";
 import { InputFilterType, SearchFilterType } from "./types";
 
 export function InputFilter({
@@ -10,7 +10,7 @@ export function InputFilter({
   filter,
   onChange,
 }: {
-  id: keyof CardSideTable;
+  id: keyof CardTable;
   filter: InputFilterType;
   onChange: React.Dispatch<React.SetStateAction<SearchFilterType>>;
 }) {

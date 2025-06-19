@@ -1,1 +1,10 @@
 /* You can add custom fonts here */
+
+@font-face {
+  font-family: "Auriol";
+  src:
+    url("./fonts/auriol_regular-webfont.woff2") format("woff2"),
+    url("./fonts/auriol_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

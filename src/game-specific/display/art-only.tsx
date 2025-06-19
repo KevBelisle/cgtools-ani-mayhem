@@ -41,7 +41,7 @@ export const CardImages = memo(({ card }: { card: GameCard }) => {
   return (
     <>
       <Image
-        src={`https://raw.githubusercontent.com/wishmstr/Ani-Mayhem/refs/heads/main/sets/setimages/${card.Set}/${card.ImageFile}.jpg`}
+        src={`https://raw.githubusercontent.com/wishmstr/Ani-Mayhem/refs/heads/main/sets/setimages/${card.Set.replace(" ", "_")}/${card.ImageFile}.jpg`}
         alt={card.Name}
         bg={"night.800"}
         width={width}

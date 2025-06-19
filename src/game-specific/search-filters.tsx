@@ -18,14 +18,14 @@ export const defaultSearchFilters: SearchFilterType = [
     type: "multiselect",
     label: "Filter by card set",
     placeholder: "Select card sets",
-    options: ["Demo_Set", "Set_One", "Set_Two", "Set_Zero"],
+    options: ["Demo Set", "Set Zero", "Set One", "Set Two"],
   },
   {
     id: "Rarity",
     type: "multiselect",
     label: "Filter by card rarity",
     placeholder: "Select card rarity",
-    options: ["Promotional", "Common", "Uncommon", "Rare", "Ultra Rare"],
+    options: ["Common", "Uncommon", "Rare", "Ultra Rare", "Promotional"],
   },
   {
     id: "Type",

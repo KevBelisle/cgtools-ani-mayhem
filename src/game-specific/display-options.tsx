@@ -21,15 +21,15 @@ export type DisplayOptionType = {
 
 export const displayOptions: DisplayOptionType[] = [
   {
-    name: "Info card",
-    component: SmallCard,
-    icon: LuRectangleHorizontal,
-    minWidth: "400px",
-  },
-  {
     name: "Info card + art",
     component: SmallCardWithArt,
     icon: LuFileSpreadsheet,
+    minWidth: "400px",
+  },
+  {
+    name: "Info card",
+    component: SmallCard,
+    icon: LuRectangleHorizontal,
     minWidth: "400px",
   },
   { name: "Art only", component: ArtOnly, icon: LuFile, minWidth: "300px" },

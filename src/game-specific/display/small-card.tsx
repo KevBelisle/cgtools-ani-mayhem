@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "@tanstack/react-router";
 
-import Attack from "@/game-specific/icons/game icons/attack-mono.svg?react";
+import Attack from "@/game-specific/icons/game icons/attack.svg?react";
 import Charm from "@/game-specific/icons/game icons/charm.svg?react";
 import Defense from "@/game-specific/icons/game icons/defense.svg?react";
 import Energy from "@/game-specific/icons/game icons/energy.svg?react";
